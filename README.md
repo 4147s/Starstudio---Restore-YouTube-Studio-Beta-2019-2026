@@ -1,42 +1,133 @@
-# Starstudio - Restore YouTube Studio 2019-2026 (Beta)
-
-**Starstudio** is a comprehensive restoration project designed to bring back the legacy user interface and functional elements of YouTube Studio from the 2019-2020 era, meticulously updated for compatibility with the modern 2026 web environment.
-
-## Project Vision
-The transition to the "New" YouTube Studio left many creators missing the density, layout, and rapid-access workflows of the classic 2019 dashboard. Starstudio aims to bridge that gap by using high-performance DOM manipulation and CSS injection to reskin the current Studio experience into its legacy counterpart.
-
-## Key Features
-- **Classic Dashboard Reconstruction:** Re-implementation of the legacy card-based dashboard layout.
-- **Analytics v2 Legacy Skin:** Restores the compact data views and navigation tabs for YouTube Analytics.
-- **Enhanced Video Manager:** Reintroduces the 2019-style bulk editing interface and row density.
-- **Dynamic CSS Injection:** Real-time skinning engine that adapts to YouTube's frequent back-end updates.
-- **Performance Optimized:** Built with a modular architecture to handle the 38,000+ lines of codebase efficiently without slowing down the browser.
-
-## Repository Structure
-This repository is organized into several key modules:
-- `/core`: The main engine logic for DOM monitoring.
-- `/components`: Over 3,800 individual UI component handlers (found in `content.js`).
-- `/styles`: Legacy CSS definitions and theme overrides.
-- `/manifest.json`: Configuration for modern browser extension standards (Manifest V3).
-
-## Installation for Developers
-Since this project is currently in **Beta**, it is not available on public extension stores. To run it locally:
-1. Clone this repository to your local machine.
-2. Open your browser's Extension Management page (`chrome://extensions`).
-3. Enable **Developer Mode**.
-4. Click **Load unpacked** and select the directory containing these files.
-
-## Technical Specifications
-- **Target Version:** YouTube Studio 2019 (Legacy)
-- **Compatibility:** 2024-2026 YouTube UI Frameworks
-- **Lines of Code:** ~38,000 (Modular Architecture)
-- **Language:** JavaScript (ES6+), CSS3, HTML5
-
-## Contribution
-We welcome contributions to the component registry. If you have a specific UI element from the 2019 era you wish to restore, please submit a Pull Request following our modular structure.
-
-## Disclaimer
-Starstudio is an independent project and is not affiliated with, authorized, maintained, sponsored, or endorsed by YouTube or Google.
-
----
-*Created by 4147s - Bringing back the interface creators loved.*
+Starstudio — Restore YouTube Studio Beta (2019–2026)
+Restore the classic YouTube Studio Beta experience with old layouts, legacy navigation, compact interfaces, and nostalgic creator tools inspired by the 2019–2026 YouTube Studio era.
+📖 About
+Starstudio is a customization project focused on bringing back the older YouTube Studio appearance and workflow from the Beta years (2019–2026).
+This project aims to recreate the classic creator experience using modern browser customization technologies such as:
+Userscripts
+CSS injection
+Legacy UI restoration
+Layout restructuring
+Compact mode restoration
+Sidebar modifications
+Classic analytics styling
+Inspired by community projects like StarTube⁠� and YouTubeRedux⁠�. �
+GitHub + 1
+✨ Features
+🎨 Restore classic YouTube Studio Beta styling
+📂 Bring back older sidebar layouts
+📊 Compact analytics appearance
+🧭 Legacy navigation structure
+📺 Old Creator Studio inspired visuals
+⚡ Lightweight and customizable
+🌙 Better spacing and classic typography
+🔧 Modular CSS and userscript system
+🖥️ Works on modern Chromium-based browsers
+🧪 Experimental 2019–2026 recreation modes
+🖼️ Inspired Eras
+This project recreates elements from:
+Era
+Description
+2019 Beta
+Early Studio Beta interface
+2020 Transition
+Hybrid Classic + Studio
+2021 Compact UI
+Cleaner creator dashboard
+2022–2024
+Improved creator workflow
+2025–2026
+Experimental restoration support
+YouTube officially replaced Creator Studio Classic with Studio Beta around 2019–2020. �
+Peggy KTC + 2
+📦 Installation
+1. Install a Userscript Manager
+Choose one:
+Tampermonkey⁠�
+Violentmonkey⁠�
+2. Download the Script
+Clone the repository:
+Bash
+git clone https://github.com/4147s/Starstudio---Restore-YouTube-Studio-Beta-2019-2026.git
+Or download ZIP from GitHub.
+3. Import the Script
+Open your userscript manager and import:
+Plain text
+Starstudio.user.js
+4. Open YouTube Studio
+Visit:
+Plain text
+https://studio.youtube.com/
+The old-style interface should automatically load.
+⚙️ Recommended Browser
+Browser
+Supported
+Google Chrome
+✅
+Microsoft Edge
+✅
+Brave
+✅
+Firefox
+⚠️ Partial
+Opera
+✅
+🛠️ Customization
+You can edit:
+Theme colors
+Sidebar width
+Compact mode
+Old icons
+Creator Studio spacing
+Legacy fonts
+Dashboard cards
+Video list density
+Example:
+CSS
+:root {
+  --starstudio-sidebar-width: 220px;
+  --starstudio-compact-mode: 1;
+}
+📸 Screenshots
+Classic Sidebar
+Restored compact navigation
+Legacy Creator Studio feel
+Old Analytics
+Simplified graph appearance
+Classic spacing
+Compact Dashboard
+Reduced padding
+Faster navigation
+📚 Background
+YouTube gradually migrated creators from the old Creator Studio to the new Studio Beta between 2018–2020. Many creators preferred the older layouts because they were more compact and easier to navigate. �
+Peggy KTC + 3
+Community projects later attempted to restore older interfaces and classic layouts. �
+GitHub + 2
+🚀 Roadmap
+[ ] Restore 2019 dashboard cards
+[ ] Legacy analytics graphs
+[ ] Old monetization page styling
+[ ] Compact upload workflow
+[ ] Classic Creator Studio icons
+[ ] Better Firefox support
+[ ] Theme presets
+[ ] Optional 2013-inspired mode
+🤝 Contributing
+Contributions are welcome.
+You can help by:
+Reporting bugs
+Improving CSS
+Fixing layout issues
+Creating themes
+Testing old layouts
+Optimizing performance
+⚠️ Disclaimer
+This project is an unofficial customization project and is not affiliated with YouTube or Google.
+YouTube may change internal page structures at any time, which can temporarily break parts of the project.
+📄 License
+MIT License
+⭐ Credits
+Special thanks to:
+StarTube Contributors⁠�
+YouTubeRedux Developers⁠�
+Open-source userscript community
+Legacy YouTube UI preservation projects
