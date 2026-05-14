@@ -1,57 +1,42 @@
 # Starstudio - Restore YouTube Studio 2019-2026 (Beta)
 
-[![Version](https://img.shields.io/badge/version-1.0.0--beta-orange.svg)](https://github.com/4147s/Starstudio---Restore-YouTube-Studio-Beta-2019-2026/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Browser%20Extension-red.svg)](#)
+**Starstudio** is a comprehensive restoration project designed to bring back the legacy user interface and functional elements of YouTube Studio from the 2019-2020 era, meticulously updated for compatibility with the modern 2026 web environment.
 
-**Starstudio** is a comprehensive restoration project designed to bring back the iconic legacy user interface of YouTube Studio from the 2019-2020 era, fully optimized for compatibility with modern web standards (2024-2026).
+## Project Vision
+The transition to the "New" YouTube Studio left many creators missing the density, layout, and rapid-access workflows of the classic 2019 dashboard. Starstudio aims to bridge that gap by using high-performance DOM manipulation and CSS injection to reskin the current Studio experience into its legacy counterpart.
 
-## 🚀 Overview
+## Key Features
+- **Classic Dashboard Reconstruction:** Re-implementation of the legacy card-based dashboard layout.
+- **Analytics v2 Legacy Skin:** Restores the compact data views and navigation tabs for YouTube Analytics.
+- **Enhanced Video Manager:** Reintroduces the 2019-style bulk editing interface and row density.
+- **Dynamic CSS Injection:** Real-time skinning engine that adapts to YouTube's frequent back-end updates.
+- **Performance Optimized:** Built with a modular architecture to handle the 38,000+ lines of codebase efficiently without slowing down the browser.
 
-YouTube Studio has undergone many changes that some creators find less intuitive or cluttered. Starstudio aims to revert those changes while maintaining the speed and security of the modern YouTube infrastructure. This project utilizes advanced DOM manipulation and CSS injection to recreate the classic "Classic Studio" feel.
+## Repository Structure
+This repository is organized into several key modules:
+- `/core`: The main engine logic for DOM monitoring.
+- `/components`: Over 3,800 individual UI component handlers (found in `content.js`).
+- `/styles`: Legacy CSS definitions and theme overrides.
+- `/manifest.json`: Configuration for modern browser extension standards (Manifest V3).
 
-## ✨ Key Features
+## Installation for Developers
+Since this project is currently in **Beta**, it is not available on public extension stores. To run it locally:
+1. Clone this repository to your local machine.
+2. Open your browser's Extension Management page (`chrome://extensions`).
+3. Enable **Developer Mode**.
+4. Click **Load unpacked** and select the directory containing these files.
 
-- **Classic Dashboard:** Restores the modular grid layout from 2019 with updated real-time widgets.
-- **Legacy Analytics Skin:** Reconstructs the simplified data visualization style for quick performance checks.
-- **Retro Video Manager:** Brings back the streamlined list view with legacy action menus.
-- **Performance Optimized:** Written in modular JavaScript (ES6+) to handle large-scale UI overrides without slowing down your browser.
-- **Dark Mode Support:** Hybrid support for both legacy aesthetics and modern system-level dark themes.
+## Technical Specifications
+- **Target Version:** YouTube Studio 2019 (Legacy)
+- **Compatibility:** 2024-2026 YouTube UI Frameworks
+- **Lines of Code:** ~38,000 (Modular Architecture)
+- **Language:** JavaScript (ES6+), CSS3, HTML5
 
-## 🛠 Project Architecture
+## Contribution
+We welcome contributions to the component registry. If you have a specific UI element from the 2019 era you wish to restore, please submit a Pull Request following our modular structure.
 
-This repository is built with scalability in mind, featuring over 38,000 lines of structured code to handle every nuance of the YouTube Studio interface:
-
-- `/core`: The main engine responsible for intercepting UI rendering.
-- `/modules`: Over 3,800 individual component handlers for specific UI elements.
-- `/styles`: Comprehensive CSS overrides for a seamless visual experience.
-- `/utils`: Helper functions for DOM observation and event hijacking.
-
-## 📥 Installation (Developer Beta)
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/4147s/Starstudio---Restore-YouTube-Studio-Beta-2019-2026.git
-    ```
-2.  **Navigate to YouTube Studio:**
-    - Visit [studio.youtube.com](https://studio.youtube.com) to see the restoration in action.
-
-## 🏗 Contributing
-
-We welcome contributions to this massive project! Since the codebase is extensive, please follow these steps:
-- Fork the repo.
-- Create a feature branch (`git checkout -b feature/AmazingFeature`).
-- Commit your changes.
-- Push to the branch.
-- Open a Pull Request.
-
-## ⚖️ License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## ⚠️ Disclaimer
-
-Starstudio is an independent project and is not affiliated with, authorized, maintained, sponsored, or endorsed by YouTube or Google. Use at your own risk as it modifies the visual presentation of the Studio platform.
+## Disclaimer
+Starstudio is an independent project and is not affiliated with, authorized, maintained, sponsored, or endorsed by YouTube or Google.
 
 ---
-*Created with ❤️ by Starstudio Team.*
+*Created by 4147s - Bringing back the interface creators loved.*
