@@ -33,9 +33,7 @@ This repository is built with scalability in mind, featuring over 38,000 lines o
     ```bash
     git clone https://github.com/4147s/Starstudio---Restore-YouTube-Studio-Beta-2019-2026.git
     ```
-2.  **Open Browser Extensions:**
-    - Go to `chrome://extensions/` or `edge://extensions/`.
-3.  **Navigate to YouTube Studio:**
+2.  **Navigate to YouTube Studio:**
     - Visit [studio.youtube.com](https://studio.youtube.com) to see the restoration in action.
 
 ## 🏗 Contributing
