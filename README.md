@@ -1,4 +1,5 @@
 Starstudio — Restore YouTube Studio Beta (2019–2026)
+
 Restore the classic YouTube Studio Beta experience with old layouts, legacy navigation, compact interfaces, and nostalgic creator tools inspired by the 2019–2026 YouTube Studio era.
 📖 About
 Starstudio is a customization project focused on bringing back the older YouTube Studio appearance and workflow from the Beta years (2019–2026).
