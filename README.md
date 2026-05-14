@@ -35,10 +35,7 @@ This repository is built with scalability in mind, featuring over 38,000 lines o
     ```
 2.  **Open Browser Extensions:**
     - Go to `chrome://extensions/` or `edge://extensions/`.
-    - Enable **Developer Mode**.
-3.  **Load Extension:**
-    - Click **Load unpacked** and select the project folder.
-4.  **Navigate to YouTube Studio:**
+3.  **Navigate to YouTube Studio:**
     - Visit [studio.youtube.com](https://studio.youtube.com) to see the restoration in action.
 
 ## 🏗 Contributing
